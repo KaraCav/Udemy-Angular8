@@ -1,0 +1,4 @@
+<h1>App</h1>
+<hr>
+<h2 (mouseover)="mouseOver()">Hover Here {{mouseIsOverH2}}</h2>
+<app-my-notes *ngFor="let note of myNotes" [singleNote]="note"></app-my-notes>
